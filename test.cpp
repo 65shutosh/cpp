@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// chnaged by abhisheknith
 bool distribute( int fruits, int daughters) {
 	for (int index = 1; index <= daughters; index++ ) {
 		if(fruits > 0 && (fruits - 1) % 3 != 0 ) return false;
