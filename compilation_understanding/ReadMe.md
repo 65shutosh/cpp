@@ -6,18 +6,18 @@ Compiling a C program is a multi-stage process. At an overview level, the proces
 
 In this post, I’ll walk through each of the four stages of compiling the following C program:
 
-/*
- * "Hello, World!": A classic.
- */
+	/*
+	 * "Hello, World!": A classic.
+	 */
 
-#include <stdio.h>
+	#include <stdio.h>
 
-int
-main(void)
-{
-	puts("Hello, World!");
-	return 0;
-}
+	int
+	main(void)
+	{
+		puts("Hello, World!");
+		return 0;
+	}
 Preprocessing
 The first stage of compilation is called preprocessing. In this stage, lines starting with a # character are interpreted by the preprocessor as preprocessor commands. These commands form a simple macro language with its own syntax and semantics. This language is used to reduce repetition in source code by providing functionality to inline files, define macros, and to conditionally omit code.
 
@@ -30,16 +30,16 @@ Given the “Hello, World!” example above, the preprocessor will produce the c
 
 [lines omitted for brevity]
 
-extern int __vsnprintf_chk (char * restrict, size_t,
-       int, size_t, const char * restrict, va_list);
-# 493 "/usr/include/stdio.h" 2 3 4
-# 2 "hello_world.c" 2
+	extern int __vsnprintf_chk (char * restrict, size_t,
+	       int, size_t, const char * restrict, va_list);
+	# 493 "/usr/include/stdio.h" 2 3 4
+	# 2 "hello_world.c" 2
 
-int
-main(void) {
- puts("Hello, World!");
- return 0;
-}
+	int
+	main(void) {
+	 puts("Hello, World!");
+	 return 0;
+	}
 Compilation
 The second stage of compilation is confusingly enough called compilation. In this stage, the preprocessed code is translated to assembly instructions specific to the target processor architecture. These form an intermediate human readable language.
 
