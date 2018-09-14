@@ -2,8 +2,9 @@
 #include<iostream>
 using namespace std;
 
-
 // Abhishek and Ashutosh
+// Ye hoga conflict
+// conflict resolved
 int main()
 {
 
