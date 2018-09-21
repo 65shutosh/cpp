@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1537541269 source:/home/ashutosh/work/BBST/main.cpp
+	<iostream>
+	"BST.hpp"
+
+1537530589 source:/home/ashutosh/work/BBST/BST.cpp
+	<iostream>
+	"BST.hpp"
+
+1537541674 /home/ashutosh/work/BBST/BST.hpp
+
+1537535082 source:/home/ashutosh/work/BBST/INORDER.cpp
+	<iostream>
+	"BST.hpp"
+
+1537530947 /home/ashutosh/work/BBST/INORDER.hpp
+
+1537541480 source:/home/ashutosh/work/BBST/BBST.cpp
+	<iostream>
+	"BST.hpp"
+
