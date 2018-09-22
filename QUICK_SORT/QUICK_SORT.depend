@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1537637176 source:/home/ashutosh/work/QUICK_SORT/main.cpp
+	"QUICK_SORT.hpp"
+	"BINARY_SEARCH.hpp"
+	<iostream>
+
+1537629989 /home/ashutosh/work/QUICK_SORT/QUICK_SORT.hpp
+
+1537635879 source:/home/ashutosh/work/QUICK_SORT/QUICK_SORT.cpp
+	"QUICK_SORT.hpp"
+	<iostream>
+
+1537636504 source:/home/ashutosh/work/QUICK_SORT/BINARY_SEARCH.cpp
+	"BINARY_SEARCH.hpp"
+	<iostream>
+
+1537636234 /home/ashutosh/work/QUICK_SORT/BINARY_SEARCH.hpp
+
