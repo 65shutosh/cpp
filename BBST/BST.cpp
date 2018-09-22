@@ -3,11 +3,8 @@
 
 using namespace std;
 
-
 BST::BST():root(NULL)
 {}
-
-
 
 Node *BST::GetRoot()
 {
@@ -21,10 +18,8 @@ Node *BST::CreateNode(int value_in_CreateNode)
     temp_in_CreateNode->left=NULL;
     temp_in_CreateNode->right=NULL;
     return temp_in_CreateNode;
-
+    
 }
-
-
 
 void BST::CreateBST(int value_in_CreateBST)
 {
@@ -33,7 +28,6 @@ void BST::CreateBST(int value_in_CreateBST)
     int check=1;
     if(IfEmpty())
     {
-
         root=temp_in_CreateBST;
     }
     else
@@ -60,10 +54,10 @@ void BST::CreateBST(int value_in_CreateBST)
                     check=0;
                 }
             }
-
+            
         }
     }
-
+    
 }
 
 void BST::traverse()
@@ -72,8 +66,8 @@ void BST::traverse()
     Node *traverse2=root;
     int check=1;
     int check2=1;
-
-
+    
+    
     while(check!=0)
     {
         if(traverse->left==NULL)
@@ -83,12 +77,12 @@ void BST::traverse()
         }
         traverse=traverse->left;
     }
-
+    
     while(check2!=0)
     {
-
-
-
+        
+        
+        
         if(traverse2->right==NULL)
         {
             cout<<"Largest Element in BST "<<traverse2->data<<endl;
@@ -96,7 +90,7 @@ void BST::traverse()
         }
         traverse2=traverse2->right;
     }
-
+    
 }
 
 

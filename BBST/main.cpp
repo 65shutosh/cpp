@@ -4,14 +4,14 @@ using namespace std;
 
 int main()
 {
-
-Node *r00t;
-BST bst;
-BBST bbst;
-INORDER inorder;
-int* ele;
-Node *root_from_BBST;
-
+    
+    Node *r00t;
+    BST bst;
+    BBST bbst;
+    INORDER inorder;
+    int* ele;
+    Node *root_from_BBST;
+    
     cout << "Hello world!" << endl;
     bst.CreateBST(10);
     bst.CreateBST(6);
