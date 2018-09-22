@@ -37,7 +37,4 @@ public:
 Node* CreateNodeBBST(int);
 Node *ArrayToBBST(int *,int,int);
 void Preorder(Node*);
-
-
-
 };
